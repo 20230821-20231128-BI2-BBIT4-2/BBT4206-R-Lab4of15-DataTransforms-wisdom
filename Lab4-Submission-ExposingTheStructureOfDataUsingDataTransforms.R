@@ -169,6 +169,9 @@ summary(student_data_scale_transform)
 # Plot the histogram for the scaled grade column (column 35)
 student_performance_grade <- as.numeric(unlist(student_data_scale_transform[, 35]))
 hist(student_performance_grade, main = names(student_data_scale_transform)[35])
+
+
+
 ### The Centre Basic Transform on the Student performance Dataset ----
 # BEFORE
 summary(student_performance_dataset)
